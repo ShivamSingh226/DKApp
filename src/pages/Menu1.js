@@ -15,7 +15,7 @@ function Menu1() {
           console.log("You clicked on Me!")
         }}
         type="button"
-        buttonStyle="btn--primary--outline"
+        buttonStyle="btn--primary--solid"
         buttonSize="btn--large">Check out our Products</Button>
         </Link>
         </div>
