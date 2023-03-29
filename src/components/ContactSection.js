@@ -72,7 +72,7 @@ function ContactSection() {
           </div>
           <div className="right">
             <Card title='Corporate Address:' body='Diyakaran Enterprises LLP, No 128, 1st Cross, Industrial Area, NS Palya, Bengaluru, Karnataka 560076' btn='Reach Us' href="https://goo.gl/maps/KjWd6qzhSxdTh14C7"/>
-            <Card title='Thank you for stopping by:' body="Please drop down your queries and questions for us. We will be happy to serve you!" btn='Write to Us' href="https://docs.google.com/forms/d/1hqD9xXnwthq--0Xto0YD1-BUbTMPAb6uV7XZiS83XAU/edit"/>
+            <Card title='Thank you for stopping by!' body="Please drop down your queries and questions for us. We will be happy to serve you!" btn='Write to Us' href="https://docs.google.com/forms/d/1hqD9xXnwthq--0Xto0YD1-BUbTMPAb6uV7XZiS83XAU/edit"/>
             
           </div>
           </div>
