@@ -34,7 +34,7 @@ align-items:flex-start;
 margin:24px;
 margin-top:10px;
 text-align:left;
-width:160px;
+width:200px;
 box-sizing: border-box;
 color:#fff;
 .hyper__link{
@@ -61,8 +61,8 @@ margin-bottom: 16px;
 export const FooterLink=styled(Link)`
 color:#fff;
 text-decoration:none;
-margin-bottom:0.5rem;
-margin-top:0.5rem;
+margin-bottom:0.3rem;
+margin-top:0.3rem;
 font-size: 16px;
 &:hover{
     color:#01bf71;

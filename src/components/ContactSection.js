@@ -65,7 +65,7 @@ function ContactSection() {
     <div className="contactSection__wrapper">
     <div className="left">
         <div className='Info'>
-            <ContactInfoItem icon={<MdLocalPhone />} text="+91 96111 58000" />
+            <ContactInfoItem icon={<MdLocalPhone />} text="+91 80 4990 0460" />
             <ContactInfoItem icon={<MdEmail />} text="info@diyakaran.in" />
             <ContactInfoItem text="Diyakaran Enterprises LLP, No 128, 1st Cross, Industrial Area, NS Palya, Bengaluru, Karnataka 560076" />
             </div>

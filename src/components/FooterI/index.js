@@ -7,8 +7,8 @@ const AnchorLink=styled.div`
 .hyper__link {
     display: inline-block;
     font-size: 1.1rem;
-    margin-top: 0.1rem;
-    margin-bottom:0.3rem;
+    margin-top: 0.4rem;
+    margin-bottom:0.4rem;
     text-decoration: none;
     color:#fff;
   }
@@ -56,7 +56,8 @@ const Footer = () => {
                          <Ptext>No. 128, 1st Cross, Industrial Area</Ptext>
                          <Ptext>NS Palya, Bengaluru</Ptext>
                          <Ptext>Karnataka 560076</Ptext>
-                         <Ptext>Contact:+919611158000</Ptext>
+                         <Ptext>Contact:+919611158000,</Ptext>
+                         <Ptext>+918049900460</Ptext>
                         
                         
                          <Ptext>Email: info@diyakaran.in</Ptext>

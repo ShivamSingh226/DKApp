@@ -25,6 +25,7 @@ const ItemStyles = styled.div`
   }
   .text{
     font-size:5rem;
+    
   }
 `;
 
