@@ -7,6 +7,7 @@ import Products from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Slider from  "./pages/Slider";
+
 //Cloned into my system
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";

@@ -4,6 +4,8 @@ import { MdEmail, MdLocalPhone } from 'react-icons/md';
 import SectionTitle from './SectionTitle';
 import ContactInfoItem from './ContactInfoItem';
 import Card from "./Card/Card"
+
+
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
   .contactSection__wrapper {
@@ -56,6 +58,7 @@ const ContactSectionStyle = styled.div`
 
 function ContactSection() {
   return (
+    
     <ContactSectionStyle>
     <div className="container">
     <SectionTitle heading="contact" subheading="Connect With Us" />
@@ -64,12 +67,13 @@ function ContactSection() {
         <div className='Info'>
             <ContactInfoItem icon={<MdLocalPhone />} text="+91 96111 58000" />
             <ContactInfoItem icon={<MdEmail />} text="info@diyakaran.in" />
-            <ContactInfoItem text="105, Block-D,Mantri Elegance, Bannerghatta Main Road, Bengaluru, Karnataka 560076" />
+            <ContactInfoItem text="Diyakaran Enterprises LLP, No 128, 1st Cross, Industrial Area, NS Palya, Bengaluru, Karnataka 560076" />
             </div>
           </div>
           <div className="right">
-            <Card title='Corporate Address:' body='Sonarisa Office, Above Swad Restaurant, In front of Mantri Elegance Exit Gate,128,1st Main Road, Stage-2, BTM Layout, Bengaluru, Karnataka 560076' btn='Reach Us' href="https://goo.gl/maps/KjWd6qzhSxdTh14C7"/>
-            <Card title='Home Address:' body="105, Block-D, Mantri Elegance,Bannerghatta Main Road, Stage-2, BTM Layout, Bengaluru, Karnataka 560076" btn='Write to Us' href="https://docs.google.com/forms/d/1hqD9xXnwthq--0Xto0YD1-BUbTMPAb6uV7XZiS83XAU/edit"/>
+            <Card title='Corporate Address:' body='Diyakaran Enterprises LLP, No 128, 1st Cross, Industrial Area, NS Palya, Bengaluru, Karnataka 560076' btn='Reach Us' href="https://goo.gl/maps/KjWd6qzhSxdTh14C7"/>
+            <Card title='Thank you for stopping by:' body="Please drop down your queries and questions for us. We will be happy to serve you!" btn='Write to Us' href="https://docs.google.com/forms/d/1hqD9xXnwthq--0Xto0YD1-BUbTMPAb6uV7XZiS83XAU/edit"/>
+            
           </div>
           </div>
           

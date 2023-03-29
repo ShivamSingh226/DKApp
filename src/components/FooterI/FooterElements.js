@@ -23,7 +23,7 @@ justify-content:center;
 export const FooterLinksWrapper= styled.div`
 display:flex;
 margin-left:25px;
-@media screen and (max-width:820 px){
+@media screen and (max-width:840 px){
     flex-direction:column;
 }
 `;
@@ -37,6 +37,17 @@ text-align:left;
 width:160px;
 box-sizing: border-box;
 color:#fff;
+.hyper__link{
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    color:#fff;
+}
+.hyper__link:hover{
+    color:#01bf71;
+    cursor:pointer;
+}
 @media screen and (max-width:420 px){
     margin: 0;
     padding:10px;
@@ -51,7 +62,8 @@ export const FooterLink=styled(Link)`
 color:#fff;
 text-decoration:none;
 margin-bottom:0.5rem;
-font-size: 15px;
+margin-top:0.5rem;
+font-size: 16px;
 &:hover{
     color:#01bf71;
     transition:0.3s ease-out;
@@ -64,3 +76,4 @@ margin-bottom: 16px;
 export const Lbtn=styled.div`
 margin-top:20px;
 `
+

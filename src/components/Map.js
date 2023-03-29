@@ -12,7 +12,7 @@ const MapStyles = styled.div`
     
   }
   .card{
-    font-size: 18px;
+    font-size: 25px;
     color:#fff;
   }
   
@@ -61,14 +61,14 @@ export default function Map() {
     <MapStyles>
       <div className="container">
         <div className="map__card">
-          <h3 className="map__card__heading">I am here</h3>
+          <h3 className="map__card__heading">We are here</h3>
           <div className='card'>
-          <p>Mantri Elegance, Bannerghatta Main Road</p>
+          <p>Diyakaran Enterprises LLP</p>
           </div>
           <div className='fcard'>
           <a
             className="map__card__link"
-            href="https://goo.gl/maps/7wAyKX2yXrzfNKEt9"
+            href="https://goo.gl/maps/nuFxVai1243gwSQa8"
             target="_blank"
             rel="noreferrer"
           >
