@@ -30,6 +30,7 @@ const Footer = () => {
     const OpeninNewTab=url=>{
         window.open(url,'_blank','noopener,noreferrer');
       };
+      const currentYear=new Date().getFullYear();
   return (
     <FooterContainer>
         <FooterWrap>
@@ -97,7 +98,7 @@ const Footer = () => {
                     </FooterLinksWrapper>
                
             </FooterLinksContainer>
-            <WebsiteRights>Diyakaran Enterprises LLP © {new Date().getFullYear} 2023, All rights reserved</WebsiteRights>
+            <WebsiteRights>Diyakaran Enterprises LLP © {currentYear}, All rights reserved</WebsiteRights>
         </FooterWrap>
     </FooterContainer>
   )
